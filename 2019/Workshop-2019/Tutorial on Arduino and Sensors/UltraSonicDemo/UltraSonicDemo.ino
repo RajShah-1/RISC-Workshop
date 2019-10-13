@@ -11,7 +11,6 @@ void setup() {
   pinMode(echoPin, INPUT);
 }
 void loop() {
-  // trigPin star
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
